@@ -11,7 +11,7 @@ body{
   background-color: white;
 }
 p{
-  color: #6C6C6C;;
+  color: #6C6C6C;
 }
 
 /* -----------------------------------------------------------------------------------------------
@@ -184,21 +184,26 @@ footer{
   height: 213px;
   margin-bottom: 100px;
 }
+.copyright{
+  color: black;
+}
 .social-icons i{
   width: 30px;
+  color: #6C6C6C;
 }
 .logo img{
   width: 483.87px;
   height: 110px;
 }
 
-/* --------------------------------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------------------------
   media query area
 ----------------------------------------------------------------------------------------------- */
-
 @media only screen and (max-width:688px) {
 
-/* top area */
+/* ---------------------
+  top area
+--------------------- */
   .top-area, .nav{
     display:flex;
     flex-direction: column;
@@ -217,7 +222,9 @@ footer{
     height: 100%;
   }
 
-  /* first section */
+/* ---------------------
+  first section
+--------------------- */
   .top-players{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -225,7 +232,9 @@ footer{
     align-items: center;
   }
 
-  /* second section */
+/* ----------------------
+second section
+---------------------- */
   .container2{
     display:flex;
     flex-direction: column;
@@ -242,7 +251,9 @@ footer{
     margin-bottom: 29px;
   }
 
-  /* footer area */
+/* ------------------------
+footer area
+------------------------ */
   .logo img{
     width: 100%;
     height: 100%;
