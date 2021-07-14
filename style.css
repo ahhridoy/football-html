@@ -197,7 +197,7 @@ footer{
 }
 
 /* -----------------------------------------------------------------------------------------------
-  media query area
+  media query area for mobile
 ----------------------------------------------------------------------------------------------- */
 @media only screen and (max-width:688px) {
 
@@ -207,9 +207,6 @@ footer{
   .top-area, .nav{
     display:flex;
     flex-direction: column;
-  }
-  .login .fas{
-    display: none;
   }
   .top-title{
     margin-bottom: 50px;
@@ -258,5 +255,67 @@ footer area
     width: 100%;
     height: 100%;
   }
+
+}
+
+/* -----------------------------------------------------------------------------------------------
+  media query area for tab
+----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+  
+/* ---------------------
+  top area
+--------------------- */
+  .top-area, .nav{
+    display:flex;
+    flex-direction: column;
+  }
+  .top-title{
+    margin-bottom: 50px;
+  }
+  .top-title h1{
+    font-size: 70px;
+  }
+  .banner img{
+    width: 100%;
+    height: 100%;
+  }
+
+/* ---------------------
+  first section
+--------------------- */
+  .top-players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+/* ----------------------
+second section
+---------------------- */
+.container2{
+  display:flex;
+  flex-direction: column;
+}
+.match img{
+  width: 100%;
+  height: 100%;
+}
+.highlights h1{
+  font-size: 70px;
+}
+.highlights p{
+  font-size: 16px;
+  margin-bottom: 29px;
+}
+
+/* ------------------------
+footer area
+------------------------ */
+.logo img{
+  width: 100%;
+  height: 100%;
+}
 
 }
